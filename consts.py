@@ -3,9 +3,11 @@ from telegram.utils.helpers import escape_markdown as es
 
 
 def welcome_msg():
-    welcome_msg = '''<b>Welcome To the Bot</b>🖐🖐
- <i>Send me anyones instagram username or profile url to get their DP</i>
- ex : <b>virat.kohli</b> , <b>thenameisyash</b> etc'''
+    welcome_msg = '''Hello { }
+I am a DP saver bot 
+Send me anyones instagram username or profile url to get their DP
+Join channel @malluinstaufollowers
+ '''
 
     return welcome_msg
 
@@ -39,4 +41,4 @@ def get_username(url):
 
 
 ratingkey = [[InlineKeyboardButton(
-    "Rate me ❤️", url="https://t.me/BotsArchive/1657")]]
+    "Rate me📣", url="https://t.me/BotsArchive/1657")]]
