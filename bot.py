@@ -66,7 +66,7 @@ def username(update, context):
             time.sleep(5)
         except Exception as e:
             print(format_exc())
-            msg.edit_text(<b>"Try again 😕😕 The username is Wrong"<b>)
+            msg.edit_text("Try again 😕😕 The username is Wrong")
     else:
         update.message.reply_html("This bot only supports downloading of Profile picture please do not send media url.")
 
