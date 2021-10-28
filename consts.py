@@ -3,7 +3,7 @@ from telegram.utils.helpers import escape_markdown as es
 
 
 def welcome_msg():
-    welcome_msg = '''Hello {username} 😊
+    welcome_msg = '''Hello {message.from_user.mention} 😊
 I am a DP saver bot
 Send me anyones instagram username or profile url to get their DP
 
