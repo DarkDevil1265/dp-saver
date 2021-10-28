@@ -8,7 +8,7 @@ import time
 from consts import *
 import re
 
-'''Coded by Anish Gowda 😃😃😃😃'''
+'''Coded by RJ 😃😃😃😃'''
 
 
 L = Instaloader()
