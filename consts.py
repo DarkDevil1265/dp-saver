@@ -3,7 +3,7 @@ from telegram.utils.helpers import escape_markdown as es
 
 
 def welcome_msg():
-    welcome_msg = '''Hello ['username'] 😊
+    welcome_msg = '''Hello 
 I am a DP saver bot
 Send me anyones instagram username or profile url to get their DP
 
@@ -21,7 +21,7 @@ def acc_type(val):
 
 
 def create_caption(user):
-    caption_msg = f'''📛*Name*📛: {es(user.full_name,version=2)} \n😁*Followers*😁: {es(str(user.followers),version=2)} \n🤩*Following*🤩: {es(str(user.followees),version=2)}\
+    caption_msg = f'''📛*Name*📛: {es(user.full_name,version=2)} \n🤩*Followers*🤩: {es(str(user.followers),version=2)} \n😁*Following*😁: {es(str(user.followees),version=2)}\
         \n🧐*Account Type*🧐: {acc_type(user.is_private)} \n\nThank You For Using The bot 😀😀'''
 
     return caption_msg
