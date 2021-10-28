@@ -35,6 +35,9 @@ def start(update, context):
 def help_msg(update, context):
     update.message.reply_text("Send any insta username (without@) or send any profile URL to get their DP")
 
+InlineKeyboardMarkup([[InlineKeyboardButton(
+"📢Join channel📢",url="https://t.me/malluinstaufollowers")]])
+
 def contact(update, context):
     keyboard = [[InlineKeyboardButton(
         "Contact", url=f"telegram.me/{TELEGRAM_USERNAME}")], ]
