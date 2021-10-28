@@ -3,8 +3,8 @@ from telegram.utils.helpers import escape_markdown as es
 
 
 def welcome_msg():
-    welcome_msg = '''Hello {}
-I am a DP saver bot 
+    welcome_msg = '''Hello {}  😊
+I am a DP saver bot
 Send me anyones instagram username or profile url to get their DP
 
 📢Join channel📢 @malluinstaufollowers
