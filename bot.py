@@ -33,8 +33,7 @@ def start(update, context):
 
 
 def help_msg(update, context):
-    update.message.reply_text("Send Any instagram users username(without @) or their profile url to get their profile pricture")
-
+    update.message.reply_text("Send any insta username (without@) or send any profile URL to get their DP")
 
 def contact(update, context):
     keyboard = [[InlineKeyboardButton(
@@ -42,7 +41,7 @@ def contact(update, context):
 
     reply_markup = InlineKeyboardMarkup(keyboard)
 
-    update.message.reply_text('Contact The Maker:', reply_markup=reply_markup)
+    update.message.reply_text('To conatct the owner of this bot :', reply_markup=reply_markup)
 
 # get the username and send the DP
 
@@ -67,7 +66,7 @@ def username(update, context):
             time.sleep(5)
         except Exception as e:
             print(format_exc())
-            msg.edit_text("Try again 😕😕 Check the username correctly")
+            msg.edit_text("Try again 😕😕 The username is Wrong")
     else:
         update.message.reply_html("This bot only supports downloading of Profile picture please do not send media url.")
 
