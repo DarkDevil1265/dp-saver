@@ -3,13 +3,12 @@ from telegram.utils.helpers import escape_markdown as es
 
 
 def welcome_msg():
-    welcome_msg = '''![This is an image](https://te.legra.ph/file/01080af21db410f8b2d33.jpg)
-Hello 
+    welcome_msg = '''Hello 
 I am a DP saver bot
 Send me anyones instagram username or profile url to get their DP
  '''
 
-    return welcome_msg
+    return welcome_msg():![This is an image](https://te.legra.ph/file/01080af21db410f8b2d33.jpg)
 
 
 def acc_type(val):
