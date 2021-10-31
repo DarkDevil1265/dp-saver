@@ -6,6 +6,8 @@ def welcome_msg():
     welcome_msg = '''Hello 👋
 I am a DP saver bot
 Send me anyones instagram username or profile url to get their DP
+text=text,
+reply_markup=your-InlineKeyboardMarkup([[InlineKeyboardButton("📢Join channel📢",url="https://t.me/malluinstaufollowers")]])
  '''
 
     return welcome_msg
