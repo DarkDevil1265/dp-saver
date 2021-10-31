@@ -7,8 +7,6 @@ def welcome_msg():
 I am a DP saver bot
 Send me anyones instagram username or profile url to get their DP
  '''
-Joinkey= [[InlineKeyboardButton(
-    "📢Join Channel📢", url="https://t.me/malluinstaufollowers")]]
 
     return welcome_msg
 
