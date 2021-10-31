@@ -8,7 +8,7 @@ I am a DP saver bot
 Send me anyones instagram username or profile url to get their DP
  '''
 
-    return welcome
+    return welcome_msg
 
 
 def acc_type(val):
