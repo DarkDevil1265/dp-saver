@@ -40,4 +40,4 @@ def get_username(url):
 
 
 ratingkey = [[InlineKeyboardButton(
-    "Support me by rating 💙", url="https://t.me/BotsArchive/1657")]]
+    "Support me by rating 💙", url="https://t.me/Dpinstallbot/15")]]
